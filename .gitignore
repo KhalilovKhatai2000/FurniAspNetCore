@@ -1,0 +1,15 @@
+bin/
+obj/
+out/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+publish/
+wwwroot/
+node_modules/
+dist/
+*.local.json
+*.vscode/
+.vscode/
