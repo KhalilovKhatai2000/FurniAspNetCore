@@ -5,7 +5,7 @@ using Furni.Repositories.Commons;
 
 namespace Furni.Repositories.Concreetes
 {
-    public class AboutRepository : Repository<About>, IAboutRepository
+    public class AboutRepository : Repository<About>, IAboutService
     {
         public AboutRepository(FurniDbContext dbContext) : base(dbContext)
         {

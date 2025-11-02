@@ -5,9 +5,9 @@ using Furni.Repositories.Commons;
 
 namespace Furni.Repositories.Concreetes
 {
-    public class SocialMediRepository : Repository<SocialMedia>, ISocialMediaRepository
+    public class SocialMediaRepository : Repository<SocialMedia>, ISocialMediaRepository
     {
-        public SocialMediRepository(FurniDbContext dbContext) : base(dbContext)
+        public SocialMediaRepository(FurniDbContext dbContext) : base(dbContext)
         {
         }
     }

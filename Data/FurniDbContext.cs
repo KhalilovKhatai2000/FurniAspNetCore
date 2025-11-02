@@ -21,7 +21,7 @@ namespace Furni.Data
         public DbSet<Order> Orders {  get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Service> Services { get; set; }
+        public DbSet<OurService> OurService { get; set; }
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<SocialMedia> SocialMedia { get; set; }
         public DbSet<Subscriber> Subscribers { get; set; }

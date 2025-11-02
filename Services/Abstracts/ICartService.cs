@@ -1,4 +1,4 @@
-﻿namespace Furni.Repositories.Abstracts
+﻿namespace Furni.Services.Abstracts
 {
     public interface ICartService
     {

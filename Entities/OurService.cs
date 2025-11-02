@@ -2,7 +2,7 @@
 
 namespace Furni.Entities
 {
-    public class Service : EntityBase
+    public class OurService : EntityBase
     {
         public string Title { get; set; }
         public string Description { get; set; }

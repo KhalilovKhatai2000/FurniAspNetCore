@@ -419,26 +419,26 @@ namespace Furni.Data.SeedData
                 }
             );
 
-            builder.Entity<Service>().HasData(
-                new Service
+            builder.Entity<OurService>().HasData(
+                new OurService
                 {
                     Id = Guid.Parse("C9DE341C-A872-4736-832E-F7340883E762"),
                     Title = "Custom Furniture Design",
                     Description = "We design personalized furniture based on your taste and space layout.",
                 },
-                new Service
+                new OurService
                 {
                     Id = Guid.Parse("6564EB6D-89EE-4AC5-9491-4A6E4D011FFE"),
                     Title = "Interior Consultation",
                     Description = "Our design experts help you choose the perfect combination of colors and furniture.",
                 },
-                new Service
+                new OurService
                 {
                     Id = Guid.Parse("754BA866-D61A-4582-AB70-2EBB926F3EE1"),
                     Title = "Delivery & Assembly",
                     Description = "We ensure safe delivery and professional assembly of all furniture pieces.",
                 },
-                new Service
+                new OurService
                 {
                     Id = Guid.Parse("9DB157B1-2563-4D4F-A86E-F4B9F889CA92"),
                     Title = "After-Sales Support",

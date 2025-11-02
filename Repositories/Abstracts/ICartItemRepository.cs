@@ -1,6 +1,6 @@
-﻿namespace Furni.Repositories.Abstracts
+﻿namespace Furni.Repositories.Concreetes
 {
-    public interface ICartItemRepository
+    internal interface ICartItemRepository
     {
     }
 }
